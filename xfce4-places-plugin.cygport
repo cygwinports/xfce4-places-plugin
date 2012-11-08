@@ -1,6 +1,8 @@
 inherit xfce4
 
-
+NAME="xfce4-places-plugin"
+VERSION=1.5.0
+RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Xfce Places menu panel plugin"
 DESCRIPTION="This xfce4-places-plugin brings much of the functionality of GNOME's
