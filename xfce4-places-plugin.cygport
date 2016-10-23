@@ -1,9 +1,11 @@
 inherit xfce4
 
 NAME="xfce4-places-plugin"
-VERSION=1.6.0
+VERSION=1.7.0
 RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Xfce Places menu panel plugin"
 DESCRIPTION="This xfce4-places-plugin brings much of the functionality of GNOME's
 Places menu to Xfce."
+
+PATCH_URI="http://pkgs.fedoraproject.org/cgit/rpms/xfce4-places-plugin.git/plain/xfce4-places-plugin-gcc.patch"
